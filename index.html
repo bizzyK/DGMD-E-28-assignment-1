@@ -9,48 +9,65 @@
 </head>
 <body>
 <header>
-    <button id="theme-toggle">Toggle Dark Mode</button>
+    <div class="header-content">
+        <h1>Hello, I'm <a href="https://www.linkedin.com/in/elizabethkoch/" target="_blank">Elizabeth Koch</a></h1>
+        <button id="theme-toggle">Toggle Dark Mode</button>
+    </div>
 </header>
 
 <main>
-    <h1>
-        Hello, I'm <a href="https://www.linkedin.com/in/elizabethkoch/" target="_blank">Elizabeth Koch</a>
-    </h1>
-    <p><strong>Where I grew up:</strong> I spent most of my life in sunny South Florida, but I now live in Southampton, MA.</p>
-    <p><strong>My Major:</strong> ALM in Digital Media Design</p>
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p><strong>Where I grew up:</strong> I spent most of my life in sunny South Florida, but I now live in Southampton, MA.</p>
+        <p><strong>My Major:</strong> ALM in Digital Media Design</p>
+    </section>
 
-    <h2>Web Development Background</h2>
-    <ul>
-        <li>Currently learning and exploring web development concepts.</li>
-        <li>Excited about designing user-friendly and impactful digital experiences.</li>
-    </ul>
+    <section class="background">
+        <h2>Background</h2>
+        <div class="background-details">
+            <div>
+                <h3>Web Development</h3>
+                <ul>
+                    <li>Currently learning and exploring web development concepts.</li>
+                    <li>Excited about designing user-friendly and impactful digital experiences.</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Software Development</h3>
+                <ul>
+                    <li>Experience with managing digital products and working with teams to build applications.</li>
+                    <li>I enjoy learning new technologies and exploring creative solutions.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-    <h2>Software Development Background</h2>
-    <ul>
-        <li>Experience with managing digital products and working with teams to build applications.</li>
-        <li>I enjoy learning new technologies and exploring creative solutions.</li>
-    </ul>
+    <section class="course-goals">
+        <h2>Why I Took This Course</h2>
+        <p>
+            I enrolled in this course to enhance my ability to create interactive single-page applications and strengthen my understanding of modern web technologies.
+            I am especially excited to use these skills to develop an engaging and interactive website to promote our newly formed nonprofit, Koch Family Animal Farm,
+            which is dedicated to rescuing and caring for animals.
+        </p>
+    </section>
 
-    <h2>Why I Took This Course</h2>
-    <p>
-        I enrolled in this course to enhance my ability to create interactive single-page applications and strengthen my understanding of modern web technologies.
-        I am especially excited to use these skills to develop an engaging and interactive website to promote our newly formed nonprofit, Koch Family Animal Farm,
-        which is dedicated to rescuing and caring for animals.
-    </p>
+    <section class="favorite-place">
+        <h2>My Favorite Place</h2>
+        <a href="img/treehouse.png" target="_blank">
+            <img src="img/treehouse.png" alt="My tree (adjacent) house" class="favorite-place-img" />
+        </a>
+        <p class="small-note">My favorite place isn't really a treehouse—it's more tree-adjacent. It's a peaceful spot where I can relax and escape the chaos that is my family.</p>
+    </section>
 
-    <h2>My Favorite Place</h2>
-    <a href="img/treehouse.png" target="_blank">
-        <img src="img/treehouse.png" alt="My tree (adjacent) house" class="favorite-place-img" />
-    </a>
-    <p class="small-note">My favorite place isn't really a treehouse—it's more tree-adjacent. It's a peaceful spot where I can relax and escape the chaos that is my family.</p>
-
-    <h2>My Favorite Restaurants</h2>
-    <p class="small-note">It's impossible to pick just one, but here are a few of my favorites:</p>
-    <ul>
-        <li><a href="https://royaltajmd.com" target="_blank">Royal Taj</a></li>
-        <li><a href="https://www.athenacafenassau.com" target="_blank">Athena Cafe Nassau</a></li>
-        <li><a href="https://www.chashuramen.com" target="_blank">Chashu Ramen & Izakaya</a></li>
-    </ul>
+    <section class="favorite-restaurants">
+        <h2>My Favorite Restaurants</h2>
+        <p class="small-note">It's impossible to pick just one, but here are a few of my favorites:</p>
+        <ul>
+            <li><a href="https://royaltajmd.com" target="_blank">Royal Taj</a></li>
+            <li><a href="https://www.athenacafenassau.com" target="_blank">Athena Cafe Nassau</a></li>
+            <li><a href="https://www.chashuramen.com" target="_blank">Chashu Ramen & Izakaya</a></li>
+        </ul>
+    </section>
 </main>
 
 <script src="script.js"></script>

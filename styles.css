@@ -25,6 +25,18 @@ h2 {
     font-size: 1.5em;
 }
 
+.favorite-place-img {
+    max-height: 200px;
+    width: auto; /* Maintains aspect ratio */
+    cursor: pointer; /* Adds a pointer cursor when hovering */
+}
+
+.small-note {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
 ul {
     margin-bottom: 20px;
 }

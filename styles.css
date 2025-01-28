@@ -22,10 +22,10 @@ header {
     color: #ffffff;
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center;    /* Center items horizontally */
-    text-align: center;     /* Center text within the header */
-    gap: 10px;              /* Add spacing between items */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
 }
 
 header h1 {
@@ -160,10 +160,10 @@ body.dark-mode {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ffffff; /* Fixed white background */
+    background-color: #ffffff;
     border-radius: 20px;
     transition: background-color 0.3s;
-    border: 2px solid #ccc; /* Add a border for better visibility */
+    border: 2px solid #ccc;
 }
 
 .slider:before {
@@ -173,13 +173,13 @@ body.dark-mode {
     width: 14px;
     left: 3px;
     bottom: 3px;
-    background-color: var(--link-color); /* Green color for the toggle knob */
+    background-color: var(--link-color);
     border-radius: 50%;
     transition: transform 0.3s;
 }
 
 input:checked + .slider {
-    background-color: #ffffff; /* Keep consistent background for better visibility */
+    background-color: #ffffff;
 }
 
 input:checked + .slider:before {
